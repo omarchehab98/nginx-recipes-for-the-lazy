@@ -26,6 +26,17 @@ Tested on Ubuntu 16.04 and 18.04
 
 LetsEncrypt [certbot.eff.org](https://certbot.eff.org/)
 
+`/etc/ssl/certs/dhparam.pem`
+```sh
+openssl dhparam -out /etc/ssl/certs/dhparam.pem 4096
+```
+
+`/etc/ssl/certs/ssl-cert-snakeoil.pem`<br>
+`/etc/ssl/private/ssl-cert-snakeoil.key`
+```sh
+make-ssl-cert generate-default-snakeoil --force-overwrite 
+```
+
 ## Wildcard Certificate with Cloudflare
 
 ```sh
