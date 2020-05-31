@@ -12,7 +12,7 @@ Tested on Ubuntu 16.04 and 18.04
 
 ## HTTP Proxy Server (Node.js, Python, ...)
 
-[`proxy.conf`](sites-available/static.conf)
+[`proxy.conf`](sites-available/proxy.conf)
 
 ## PHP Proxy Server
 
